@@ -22,3 +22,5 @@ _testmain.go
 *.exe
 
 forum
+
+static/test.go
