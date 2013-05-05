@@ -1,29 +1,32 @@
-forum
-=====
+forum.go
+-----
 
-Web Forum built in go (#golang)
+Basic Web Forum built with go (#golang)
 
 Installation
-=====
-go get -u github.com/christopherhesse/rethinkgo
-go get -u github.com/hoisie/mustache
-go get -u github.com/hoisie/web
-go get -u bitbucket.org/pkg/inflect
+------------
 
-Structure
-=====
-User
-  has_many Topics
+### Prerequisites:
 
-Forum
-  has_many Topics
+    brew install mercurial # If you do not have [mercurial] installed, it is required:
+    
+### Dependencies
 
-Topic
-  belongs_to User
-  belongs_to Forum
+    go get -u bitbucket.org/pkg/inflect
+    go get -u github.com/hoisie/web
+    go get -u github.com/christopherhesse/rethinkgo
 
-  has_many Posts
 
-Post
-  belongs_to User
-  belongs_to Topic
+Model Structure
+-----
+* User
+ * has_many Topics
+* Forum
+ * has_many Topics
+* Topic
+ * belongs_to User
+ * belongs_to Forum
+ * has_many Posts
+* Post
+ * belongs_to User
+ * belongs_to Topic
