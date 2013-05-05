@@ -2,6 +2,7 @@ package main
 
 import (
   "encoding/json"
+  "github.com/altonymous/forum/models"
   "log"
   "os"
 )
@@ -9,7 +10,7 @@ import (
 var globalConfiguration *configuration = new(configuration)
 
 type configuration struct {
-  Database database
+  Database models.Database
   Port     string
 }
 
