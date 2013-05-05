@@ -9,10 +9,9 @@ Installation
 ### Prerequisites:
 
     brew install mercurial # If you do not have [mercurial] installed, it is required:
-    
+
 ### Dependencies
 
-    go get -u bitbucket.org/pkg/inflect
     go get -u github.com/hoisie/web
     go get -u github.com/christopherhesse/rethinkgo
 
