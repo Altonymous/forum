@@ -23,7 +23,9 @@ Running
 
     Navigate to http://localhost:8080 in your browser and create a new database called `community`
 
-    In order to run this application you'll need to update the conf file to point to your database, by default the configuration file is set to rethinkdb defaults.  If you change the defaults you will need to update the conf file.
+    In order to run this application you'll need to update the conf file to point to your database,
+    by default the configuration file is set to rethinkdb defaults.  If you change the defaults you 
+    will need to update the conf file.
 
 
 Model Structure
