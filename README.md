@@ -6,6 +6,7 @@ Web Forum built in go (#golang)
 Installation
 =====
 go get -u github.com/christopherhesse/rethinkgo
+go get -u github.com/hoisie/mustache
 go get -u github.com/hoisie/web
 go get -u bitbucket.org/pkg/inflect
 

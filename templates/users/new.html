@@ -1,0 +1,30 @@
+<form action="/users/" autocomplete="on" id="user_form" method="post">
+  {{range $key, $value := .Errors}}
+    <div>Errors:</div>
+    <div class="row">
+      {{$key}} {{$value}}
+    </div>
+  {{end}}
+  <p>
+  Username: <input name="username" value="" />
+  </p>
+  <p>
+  Password: <input name="password" type="password" value="" />
+  </p>
+  <p>
+  Password (Confirmation): <input name="password_confirmation" type="password" value="" />
+  </p>
+  <p>
+  First Name: <input name="first_name" value="" />
+  </p>
+  <p>
+  Last Name: <input name="last_name" value="" />
+  </p>
+  <p>
+  Email: <input name="email" value="" />
+  </p>
+  <p>
+  Handle: <input name="handle" value="" />
+  </p>
+  <p><input type="submit" value="Create User" /></p>
+</form>

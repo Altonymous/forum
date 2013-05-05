@@ -17,11 +17,19 @@ func (self *forum) index(webContext *web.Context) {
 
 }
 
-func (self *forum) create(webContext *web.Context) {
+func (self *forum) show(webContext *web.Context) {
 
 }
 
-func (self *forum) show(webContext *web.Context) {
+func (self *forum) new(webContext *web.Context) {
+
+}
+
+func (self *forum) edit(webContext *web.Context) {
+
+}
+
+func (self *forum) create(webContext *web.Context) {
 
 }
 
